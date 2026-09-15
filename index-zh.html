@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="海外商業開發中，商業判斷如何把市場相關性收斂為下一步的合成示範。" />
+    <title>海外商業開發判斷揭露 · Paul's Tradecraft</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero shell">
+        <div class="hero-copy">
+          <a class="language-link" href="./index.html" lang="en">EN</a>
+          <p class="eyebrow">海外商業開發 · 合成判斷示範</p>
+          <h1>相關，只是開始。<br /><em>判斷決定資源往哪裡去。</em></h1>
+          <p class="lede">一個可檢視的合成示範：同一批市場訊號，在不同 Owner 目標下，可能帶向不同的下一步。</p>
+          <div class="proof-strip" aria-label="原型邊界">
+            <span>6 個相關參與者</span><span>角色重分類</span><span>UNKNOWN 保持可見</span>
+          </div>
+        </div>
+        <div class="hero-note">
+          <p class="note-label">真正的問題</p>
+          <p>誰值得投入商業資源，而不只是被列進名單？</p>
+          <p class="note-small">合成供應商 · 公開市場證據 · 不代表真實買方、訂單或商業成果</p>
+        </div>
+      </section>
+
+      <section class="reveal-section shell" aria-labelledby="reveal-title">
+        <div class="section-intro">
+          <p class="eyebrow">01 · 檢查商業取得路徑</p>
+          <h2 id="reveal-title">六個帳戶都可能看似相關，<br /><span>但真正的問題還沒開始問。</span></h2>
+          <p>先從看得見的市場開始，再挑戰「產品相似」到「存在外部採購」之間是否真有商業路徑。</p>
+          <div class="action-row">
+            <button class="primary-action" id="revealButton" type="button">檢查商業取得路徑 <span aria-hidden="true">→</span></button>
+            <span class="stage-count" id="stageCount">01 / 02</span>
+          </div>
+          <p class="action-hint" id="actionHint">先把市場角色與買方假設分開。</p>
+        </div>
+        <div class="participant-grid" id="participantGrid" aria-live="polite"></div>
+      </section>
+
+      <section class="objective-section shell" aria-labelledby="objective-title">
+        <div class="objective-heading">
+          <p class="eyebrow">02 · OWNER 目標</p>
+          <h2 id="objective-title">目標不同，<br /><em>資源該去的地方也不同。</em></h2>
+          <p>這裡沒有放諸四海皆準的「最佳帳戶」。有價值的輸出，是優先研究路徑，以及它帶出的下一個問題。</p>
+        </div>
+        <div class="objective-panel">
+          <div class="objective-tabs" role="group" aria-label="Owner 目標">
+            <button class="objective-tab is-active" data-objective="capacity" type="button" aria-pressed="true"><span>A</span> 填補產能</button>
+            <button class="objective-tab" data-objective="premium" type="button" aria-pressed="false"><span>B</span> 進入美國高端市場</button>
+          </div>
+          <div class="priority-result" id="priorityResult"></div>
+        </div>
+      </section>
+
+      <section class="closing-section shell" aria-labelledby="closing-title">
+        <div class="closing-rule"></div>
+        <p class="eyebrow">03 · 判斷轉折</p>
+        <h2 id="closing-title">市場參與者，<br /><em>還不是可追的買方。</em></h2>
+        <p class="closing-copy">我們要的不是更漂亮的排名，而是更清楚的下一個問題：<strong>什麼證據足以支持下一步？</strong></p>
+        <div class="boundary-grid">
+          <div><span>UNKNOWN</span><p>外部採購路徑、需求規模與商業條件，仍需要被確認。</p></div>
+          <div><span>邊界</span><p>樣品或設計參考可以支持內部評估，但不等於訂單預測。</p></div>
+        </div>
+        <p class="disclosure">設計驗收原型 · 尚未進行真人驗證 · 尚未進行市場驗證</p>
+      </section>
+    </main>
+    <script src="./app.js" defer></script>
+  </body>
+</html>
