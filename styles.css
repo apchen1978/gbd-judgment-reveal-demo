@@ -69,5 +69,10 @@ h2 { font-size:clamp(2.5rem, 4.5vw, 4.6rem); color:var(--pine); }
 .journey-links a { max-width:100%; color:var(--pine); text-underline-offset:4px; overflow-wrap:anywhere; }
 .journey-links a:hover { text-decoration-thickness:2px; }
 .journey-links a:focus-visible { outline:2px solid var(--pine); outline-offset:5px; }
+/* Keep the approved Chinese copy intact; break between phrases, not inside 買方. */
+:lang(zh-Hant) :is(h1,h2) { letter-spacing:0; line-height:1.2; text-wrap:balance; }
+:lang(zh-Hant) #closing-title { word-break:keep-all; }
+:lang(zh-Hant) .zh-phrase { white-space:nowrap; }
+:lang(zh-Hant) :is(h3,h4,b,strong,button,.language-link,.eyebrow,.note-label,.participant-role,.state,.proof-strip span,.stage-count,.result-label,.next-question,.boundary-grid span) { font-weight:600; }
 @media (max-width: 760px) { .shell { width:min(100% - 28px, 600px); } .hero { min-height:auto; display:block; padding:64px 0 72px; } h1 { font-size:clamp(3rem, 15vw, 5rem); } .lede { font-size:16px; } .proof-strip { display:block; margin-top:34px; } .proof-strip span { display:block; padding:12px 0; margin:0; border-right:0; border-bottom:1px solid var(--line); } .hero-note { margin-top:54px; } .reveal-section, .objective-section { display:block; padding:70px 0 76px; } .reveal-section .section-intro, .objective-heading { margin-bottom:42px; } .participant-grid { grid-template-columns:1fr; } .participant { min-height:156px; } .action-row { align-items:stretch; flex-direction:column; gap:10px; } .stage-count { line-height:1.5; } .objective-tabs { grid-template-columns:1fr; } .objective-tab { border-right:0; border-bottom:1px solid var(--pine); } .objective-tab:last-child { border-bottom:0; } .priority-result { min-height:290px; padding:24px; } .boundary-grid { grid-template-columns:1fr; gap:20px; margin-top:46px; } .closing-section { padding:80px 0 90px; } .disclosure { margin-top:54px; line-height:1.6; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior:auto !important; transition-duration:.01ms !important; animation-duration:.01ms !important; } }
