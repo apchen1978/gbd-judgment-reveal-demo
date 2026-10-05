@@ -4,9 +4,9 @@ const englishParticipants = [
   { name: "Prestige Architecture Brand", role: "Recognizable market participant", initial: "Product + market relevance", final: "SPECIFICATION PLATFORM", detail: "Procurement path UNKNOWN · hold senior sales effort" },
   { name: "StudioForm Design Brand", role: "Design-led market participant", initial: "Product + design relevance", final: "POTENTIAL ENTRY PATH", detail: "External sourcing and demand still require verification" },
   { name: "Regional Contract Interiors Distributor", role: "Channel participant", initial: "Category + channel relevance", final: "POTENTIAL CHANNEL PATH", detail: "A repeatable route may exist · verify acquisition terms" },
-  { name: "Synthetic participant 04", role: "Adjacent category participant", initial: "Product similarity", final: "COMPETITOR / BENCHMARK", detail: "Similarity does not establish external procurement" },
-  { name: "Synthetic participant 05", role: "Specification ecosystem", initial: "Samples + specification relevance", final: "SPECIFICATION PLATFORM", detail: "Visibility is not purchasing evidence" },
-  { name: "Synthetic participant 06", role: "Market participant", initial: "Application relevance", final: "UNKNOWN", detail: "Buyer role and supplier openness need evidence" },
+  { name: "Demo participant 04", role: "Adjacent category participant", initial: "Product similarity", final: "COMPETITOR / BENCHMARK", detail: "Similarity does not establish external procurement" },
+  { name: "Demo participant 05", role: "Specification ecosystem", initial: "Samples + specification relevance", final: "SPECIFICATION PLATFORM", detail: "Visibility is not purchasing evidence" },
+  { name: "Demo participant 06", role: "Market participant", initial: "Application relevance", final: "UNKNOWN", detail: "Buyer role and supplier openness need evidence" },
 ];
 
 const englishObjectives = {
@@ -18,9 +18,9 @@ const zhParticipants = [
   { name: "知名建築品牌", role: "具市場辨識度的參與者", initial: "產品與市場看似相關", final: "規格／設計平台", detail: "採購路徑 UNKNOWN · 暫不投入資深業務資源" },
   { name: "StudioForm 設計品牌", role: "設計導向市場參與者", initial: "產品與設計脈絡相關", final: "可能的市場切入路徑", detail: "是否外部採購與需求規模仍待驗證" },
   { name: "區域商用室內通路商", role: "通路型市場參與者", initial: "品類與通路看似相關", final: "可能的通路路徑", detail: "可能存在可重複路徑 · 先確認採購與合作條件" },
-  { name: "合成參與者 04", role: "相鄰品類參與者", initial: "產品相似", final: "競爭者／市場基準", detail: "產品相似不代表存在外部採購關係" },
-  { name: "合成參與者 05", role: "規格生態系參與者", initial: "樣品與規格看似相關", final: "規格／設計平台", detail: "可見度不等於採購證據" },
-  { name: "合成參與者 06", role: "市場參與者", initial: "應用情境相關", final: "UNKNOWN", detail: "買方角色與供應商開放度仍需證據" },
+  { name: "示範參與者 04", role: "相鄰品類參與者", initial: "產品相似", final: "競爭者／市場基準", detail: "產品相似不代表存在外部採購關係" },
+  { name: "示範參與者 05", role: "規格生態系參與者", initial: "樣品與規格看似相關", final: "規格／設計平台", detail: "可見度不等於採購證據" },
+  { name: "示範參與者 06", role: "市場參與者", initial: "應用情境相關", final: "UNKNOWN", detail: "買方角色與供應商開放度仍需證據" },
 ];
 
 const zhObjectives = {
